@@ -1,7 +1,14 @@
+import Header from "./Header";
+
 const Browse = () => {
     return(
         <div>
-           Browse
+           <Header />
+
+           <ui className="">
+                <li>Home</li>
+                <li>Log Out</li>
+           </ui>
         </div>
     )
 }
