@@ -14,7 +14,25 @@ Netflix GPT
 - Created Redux store with user slice
 - Implemented Sign Out feature
 - Update Profile API call
-Building movies screen (Fetch from TMDB - movies api) 
+- [ BUG FIX ] Sign up user name and profile picture update
+- [ BUG FIX ] User not loged in redirect to login page
+- Building movies screen (Fetch from TMDB - movies api) 
+- Unscribred to the onAuthstatechange Callback in the Header
+- info about strict mode
+- Register for TMDB and get the access token
+- In Docmentation get the syntax from now Playing movies
+- Get data from now playing movies 
+- Solved Early return [Concept]
+Custom Hooks for now planing movies
+Create movie Slice
+- Update Store for movie Data
+-Planning for main Container & SecondaryContainer  
+- Fetch Data For trailer Video  
+- Update Store with Trailer Video Data
+- Embded the youtube Video and make it autoplay and mute    
+- Tailwind classes to make the main container to look awesome
+
+
 
 
 - Features
@@ -42,3 +60,16 @@ Redux Store Creation:
 Install npm i -D @reduxjs/toolkit
 npm i redux-react
 
+
+Browse page :
+    MainContainer
+    - Video Container
+    - Video title
+    SecondContainer
+    - movies * n
+    - cards * n
+
+
+
+# Solutions for Issues Faced 
+    //Added pointer - events-none to solve the video play clickable issue from overlay

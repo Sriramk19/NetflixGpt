@@ -27,7 +27,7 @@ const Login = () =>
     const handleButtonClick = () => {
         //Validating the Form Data
         const message = validationCheck(email.current.value,password.current.value);
-        console.log(message,"ReturnMNessage");
+        console.log(message,"ReturMessage");
         setErrorMessage(message);
 
         //Sign up (Firebase)
