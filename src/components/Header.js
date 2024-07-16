@@ -46,7 +46,7 @@ const  handleSignout = () =>{
                     
 {user &&(          <div className="flex">
                     <img className="w-8 h-8 my-4" src={"https://avatars.githubusercontent.com/u/71914510?s=400&u=fc2f159a27bd1a992d99361e70b561c93b45fb5e&v=4"} alt="UserIcon" />
-                    <button onClick={handleSignout} className="cursor-pointer pointer-events-auto px-2 text-white font-bold">Sign Out</button>
+                    <button onClick={handleSignout} className=" mr-8 cursor-pointer pointer-events-auto px-2 text-white font-bold">Sign Out</button>
                        
                     </div>
 )}

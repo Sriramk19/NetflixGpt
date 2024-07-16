@@ -23,15 +23,19 @@ Netflix GPT
 - In Docmentation get the syntax from now Playing movies
 - Get data from now playing movies 
 - Solved Early return [Concept]
-Custom Hooks for now planing movies
-Create movie Slice
+- Custom Hooks for now planing movies
+- Create movie Slice
 - Update Store for movie Data
--Planning for main Container & SecondaryContainer  
+- Planning for main Container & SecondaryContainer  
 - Fetch Data For trailer Video  
 - Update Store with Trailer Video Data
 - Embded the youtube Video and make it autoplay and mute    
 - Tailwind classes to make the main container to look awesome
-
+- Built Secondary Component
+- Built Movie List  - Built Movie Card
+- TMDB Image CDN URL
+- Made UI amazing with TailwindCSS
+- use varios Custom Hooks
 
 
 
@@ -51,6 +55,9 @@ Browse Page(after authentucation)
     -NetflixGPT
         - Search bar
         - movie suggestions
+
+
+        
 
 - Formik - a form library to use in react
 
