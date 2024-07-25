@@ -36,6 +36,11 @@ Netflix GPT
 - TMDB Image CDN URL
 - Made UI amazing with TailwindCSS
 - use varios Custom Hooks
+- GPT Search feature 
+- Gpt Seasrch bar
+- Added Multi Langiagal feeature 
+- Integratede GPT API's (got Open key)
+- 
 
 
 
@@ -60,7 +65,19 @@ Browse Page(after authentucation)
         
 
 - Formik - a form library to use in react
-
+- Use selector is used to access the store in a web component
+- dispatch is used to make changes in the store
+- react fragment when there is nop parent 
+eg.
+{
+    <div>
+           <Header/> 
+           {
+           showGptSearch ? <GptSearch /> : 
+           -- ><><MainContainer />
+           <SecondaryContainer /></> <-- React fragment
+    }
+}
 
 Redux Store Creation:
 

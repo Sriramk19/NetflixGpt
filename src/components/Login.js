@@ -7,6 +7,7 @@ import {createUserWithEmailAndPassword,signInWithEmailAndPassword,updateProfile 
 import {auth} from "../utils/Firebase"
 import { useDispatch } from "react-redux";
 import { addUser} from "../utils/userSlice";
+import { BG_URL } from "../utils/constants";
 
 const Login = () => 
 {
@@ -93,7 +94,7 @@ const Login = () =>
                 <div>
                 <Header />
                         <div className="absolute">
-                            <img alt="bg-Image"  src="https://assets.nflxext.com/ffe/siteui/vlv3/7ca5b7c7-20aa-42a8-a278-f801b0d65fa1/a3e37765-5f15-4639-8c16-e1eaa0044132/IE-en-20240326-popsignuptwoweeks-perspective_alpha_website_small.jpg" />
+                            <img alt="bg-Image"  src={BG_URL} />
                         </div>
                         <form onSubmit={(e)=> e.preventDefault()} className=" w-3/12 p-12 text-white absolute bg-black bg-opacity-80 my-36 left-0 right-0 rounded-md mx-auto">
                             <h1 className="font-bold text-xl py-4">{isSignInForm ? "Sign In" : "Sign Up"}</h1>
